@@ -187,3 +187,29 @@ img{
 .skills-header{
     margin-bottom: 2em;
 }
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+}
+.project{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    max-height: 500px;
+    background-color: #292d3e;
+    border: solid #a5abcc;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.card-img-top{
+    margin: 10px 0 0 0;
+    width: 245px;
+    height: 226px;
+}
+.card-title{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.card-body{
+    color: #a5abcc;
+}
