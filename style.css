@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Oswald', sans-serif;
     background-color: #22272e;
@@ -160,4 +164,26 @@ img{
 .author{
     margin: 0 0 1em 0;
     color: mediumpurple;
+}
+.skill{
+    color: #a5abcc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xxx-large;
+    width: 100%;
+    margin-bottom: 1em;
+}
+.icon{
+    margin-bottom: 10px;
+    color: #cc99ff;
+}
+.skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.skills-header{
+    margin-bottom: 2em;
 }
