@@ -213,3 +213,8 @@ img{
 .card-body{
     color: #a5abcc;
 }
+.project-link:hover{
+    transform: scale(1.1);
+    transition: .1s;
+    transition-timing-function: ease-out;
+}
