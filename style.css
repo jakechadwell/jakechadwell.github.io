@@ -155,6 +155,7 @@ img{
     height: 550px;
     border: solid #a5abcc;
     border-radius: 2%;
+    object-fit: cover;
 }
 .quote{
     font-size: large;
@@ -190,6 +191,7 @@ img{
 .projects{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 .project{
     display: flex;
@@ -200,6 +202,7 @@ img{
     border: solid #a5abcc;
     margin-left: 50px;
     margin-right: 50px;
+    width: 20%;
 }
 .card-img-top{
     margin: 10px 0 0 0;
@@ -217,4 +220,10 @@ img{
     transform: scale(1.1);
     transition: .1s;
     transition-timing-function: ease-out;
+}
+.second-row{
+    margin-top: 5em;
+}
+.card-deck .card{
+    flex: inherit;
 }
