@@ -24,6 +24,7 @@ a{
 }
 a:hover{
     color: mediumpurple;
+    text-decoration: none;
 }
 .collapse{
     background-color: #22272e;
@@ -91,6 +92,9 @@ a:hover{
 .links a{
     margin-right: 10px;
     margin-left: 10px;
+}
+.contact-info:hover {
+    text-decoration: none;
 }
 .contact-info{
     display: flex;
